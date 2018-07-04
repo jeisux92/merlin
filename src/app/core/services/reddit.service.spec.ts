@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
+import { RedditService } from './reddit.service';
 
-import { RedditServiceService } from './reddit-service.service';
 
 describe('RedditServiceService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [RedditServiceService]
+      providers: [RedditService]
     });
   });
 
-  it('should be created', inject([RedditServiceService], (service: RedditServiceService) => {
+  it('should be created', inject([RedditService], (service: RedditService) => {
     expect(service).toBeTruthy();
   }));
 });

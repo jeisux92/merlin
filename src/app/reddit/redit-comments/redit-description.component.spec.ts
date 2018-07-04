@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ReditCommentsComponent } from './redit-description.component';
 
-import { ReditDescriptionComponent } from './redit-description.component';
 
 describe('ReditDescriptionComponent', () => {
-  let component: ReditDescriptionComponent;
-  let fixture: ComponentFixture<ReditDescriptionComponent>;
+  let component: ReditCommentsComponent;
+  let fixture: ComponentFixture<ReditCommentsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ReditDescriptionComponent ]
+      declarations: [ ReditCommentsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ReditDescriptionComponent);
+    fixture = TestBed.createComponent(ReditCommentsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,12 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './me.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
-import { APP_ROUTING } from './app.routing';
-import { HttpClientModule } from '@angular/common/http';
-import { SharedModule } from './shared/shared.module';
+import { APP_ROUTING } from './me.routing';
 
 @NgModule({
   declarations: [
@@ -16,7 +14,6 @@ import { SharedModule } from './shared/shared.module';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
     APP_ROUTING
   ],
   providers: [],
