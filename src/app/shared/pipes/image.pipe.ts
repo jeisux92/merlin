@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class ImagePipe implements PipeTransform {
 
   transform(value: any, args?: any): any {
-    return value || `http://via.placeholder.com/350x150`;
+    return value || `assets/img/placeholder.gif`;
   }
 
 }

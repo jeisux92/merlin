@@ -1,5 +1,5 @@
 <div class="card" style="width: 18rem">
-  <img class="card-img-top" *ngIf="reddit.banner_img" [src]="reddit.banner_img" alt="Card image cap">
+  <img class="card-img-top"  [src]="reddit.banner_img | image" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title" [textContent]="reddit.title"></h5>
     <p class="card-text" [textContent]="reddit.public_description"></p>
