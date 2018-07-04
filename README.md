@@ -1,8 +1,6 @@
 # Merlin
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
-# The used
-https://startbootstrap.com/template-overviews/shop-homepage/
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8. and the design used was [Design](https://startbootstrap.com/template-overviews/shop-homepage/)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
