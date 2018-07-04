@@ -16,7 +16,6 @@ export class InterceptorService implements HttpInterceptor {
     return next.handle(req).pipe(
       tap((x: any) => {
         if (x.status === 200) {
-
           loadingContainer.style.display = 'none';
         }
       }), finalize(() => {
