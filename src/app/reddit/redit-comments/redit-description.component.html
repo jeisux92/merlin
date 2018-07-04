@@ -1,0 +1,2 @@
+<h2 *ngIf="comments[0]" [textContent]="(comments[0].data.subreddit | upperCase) + ' Comments'"></h2>
+<me-redit-comment *ngFor="let comment of comments" [comment]="comment"></me-redit-comment>

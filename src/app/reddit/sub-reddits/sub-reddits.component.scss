@@ -1,0 +1,15 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+@media (max-width:767px) {
+  h2 {
+    text-align: center;
+  }
+  .card-container {
+    justify-content: center;
+  }
+}
