@@ -3,11 +3,11 @@ import { ActivatedRoute } from '@angular/router';
 import { RedditService } from '../../core/services/reddit.service';
 
 @Component({
-  selector: 'me-redit-comments',
+  selector: 'me-redit-description',
   templateUrl: './redit-description.component.html',
   styleUrls: ['./redit-description.component.css']
 })
-export class ReditCommentsComponent implements OnInit {
+export class ReditDescriptionComponent implements OnInit {
   comments = [];
   constructor(private route: ActivatedRoute, private redditService: RedditService) { }
 

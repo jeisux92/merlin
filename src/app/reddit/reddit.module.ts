@@ -5,12 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { SubRedditCardComponent } from './sub-reddit-card/sub-reddit-card.component';
 import { CoreModule } from '../core/core.module';
 import { SharedModule } from '../shared/shared.module';
-import { ReditCommentsComponent } from './redit-comments/redit-description.component';
+import { ReditDescriptionComponent } from './redit-comments/redit-description.component';
 import { ReditCommentComponent } from './redit-comment/redit-comment.component';
 
 const routes: Routes = [
   { path: '', component: SubRedditsComponent },
-  { path: 'reddit/:id', component: ReditCommentsComponent },
+  { path: 'reddit/:id', component: ReditDescriptionComponent },
 ];
 
 @NgModule({
@@ -23,7 +23,7 @@ const routes: Routes = [
   declarations: [
     SubRedditsComponent,
     SubRedditCardComponent,
-    ReditCommentsComponent,
+    ReditDescriptionComponent,
     ReditCommentComponent
   ]
 })
